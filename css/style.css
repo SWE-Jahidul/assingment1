@@ -78,6 +78,8 @@ h2{
     font-size: 20px;
     margin-bottom: 13%;
 }
+
+
 /* footer start*/
 footer{
     height: 330px;
@@ -94,7 +96,8 @@ footer{
     color: rgb(21, 102, 98);
     text-align: center;
 }
-/* Footer End */
+
+
 /* my recipies */
 .My_recipies h1{
     text-align: center;
@@ -113,12 +116,14 @@ footer{
 }
 .flex-container{
     display: flex;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
 .recipe-items img{
     width: 500px;
     height: 300px;
+    border-radius: 20px;
 }
 .recipe-items{
     margin-top: 50px;
@@ -137,4 +142,22 @@ footer{
 .recipe-items p {
     text-align: left;
     text-justify: auto;
+}
+
+/* social connection  */
+.conection{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    height: 250px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+.conecction_items{
+    display: inline-block;
+    padding-left: 15%;
+    padding-top: 4%;
+    text-align: center;
 }
